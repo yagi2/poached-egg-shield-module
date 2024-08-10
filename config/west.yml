@@ -2,16 +2,11 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: walk-ingegg
-      url-base: https://github.com/walk-ingegg
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
     - name: zmk
       remote: zmkfirmware
-      revision: main
-    - name: poached-egg-shield-module
-      remote: walk-ingegg
       revision: main
   self:
     path: config
