@@ -1,0 +1,5 @@
+config SHIELD_POACHED_EGGS_LEFT
+    def_bool $(shields_list_contains,poached_eggs_left)
+
+config SHIELD_POACHED_EGGS_RIGHT
+    def_bool $(shields_list_contains,poached_eggs_right)
