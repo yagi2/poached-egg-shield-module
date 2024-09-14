@@ -1,7 +1,7 @@
 #include "poached_eggs.dtsi"
 
 &default_transform {
-    row-offset = <7>;
+    col-offset = <7>;
 };
 
 &kscan0 {
