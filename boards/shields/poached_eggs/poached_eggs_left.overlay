@@ -1,7 +1,7 @@
 #include "poached_eggs.dtsi"
 
 &kscan0 {
-    row-gpios
+    col-gpios
         = <&xiao_d 0 GPIO_ACTIVE_HIGH>
         , <&xiao_d 1 GPIO_ACTIVE_HIGH>
         , <&xiao_d 2 GPIO_ACTIVE_HIGH>
