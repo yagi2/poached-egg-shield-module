@@ -12,16 +12,7 @@
 &kp TAB               &kp Q  &kp L  &kp U     &kp COMMA  &kp DOT                              &kp F     &kp W     &kp R     &kp Y   &kp P     &kp BSPC
 &kp LCTRL             &kp E  &kp I  &kp A     &kp O      &kp MINUS                            &kp K     &kp T     &kp N     &kp S   &kp H     &kp RET
 &mt LSHFT LANGUAGE_2  &kp J  &kp X  &kp C     &kp V      &kp SEMI                             &kp G     &kp D     &kp M     &kp Z   &kp B     &mt RSHFT LANGUAGE_1
-&gresc                &none  &none  &kp LALT  &kp LGUI   &kp RET    &lt 1 SPACE  &lt 2 SPACE  &kp BSPC  &kp RGUI  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
-            >;
-        };
-
-        lower_layer {
-            bindings = <
-&kp ESC    &kp N1    &kp N2  &kp N3    &kp N4      &kp N5                      &kp N6     &kp N7    &kp N8     &kp N9    &kp N0     &kp GRAVE
-&kp GRAVE  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PRCNT                   &kp CARET  &kp AMPS  &kp ASTRK  &kp LPAR  &kp RPAR   &kp TILDE
-&trans     &none     &none   &none     &none       &none                       &none      &none     &none      &kp PLUS  &kp MINUS  &kp PIPE
-&none      &none     &none   &trans    &trans      &trans     &kp DEL  &trans  &mo 3      &trans    &trans     &none     &kp FSLH   &kp APOS
+&gresc                &none  &none  &kp LALT  &kp LGUI   &kp RET    &lt 2 SPACE  &lt 1 SPACE  &kp BSPC  &kp RGUI  &kp LEFT  &kp UP  &kp DOWN  &kp RIGHT
             >;
         };
 
@@ -31,6 +22,15 @@
 &none   &none   &none   &none   &none   &none                    &none     &kp LEFT   &kp DOWN   &kp UP    &kp RIGHT  &none
 &none   &none   &none   &none   &none   &none                    &kp PLUS  &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT   &kp BSLH
 &none   &none   &none   &trans  &trans  &mo 3   &trans  &kp DEL  &trans    &trans     &trans     &none     &none      &none
+            >;
+        };
+
+        lower_layer {
+            bindings = <
+&kp ESC    &kp N1        &kp N2  &kp N3        &kp N4        &kp N5                       &kp SLASH  &kp EQUAL  &none     &none   &none   &trans
+&kp GRAVE  &kp NUMBER_6  &kp N7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0                 &kp LBKT   &kp RBKT   &kp BSLH  &none   &none   &trans
+&trans     &none         &none   &none         &none         &none                        &kp SQT    &none      &none     &none   &none   &none
+&none      &none         &none   &trans        &trans        &trans        &mo 3  &trans  &trans     &trans     &trans    &trans  &trans  &trans
             >;
         };
 
